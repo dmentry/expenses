@@ -35,7 +35,12 @@ expense_category = STDIN.gets.chomp
 
 file_name = File.join(__dir__, "my_expenses.xml")
 file = File.new(file_name, "r:UTF-8")
-doc = REXML::Document.new(file)
+begin
+  doc = REXML::Document.new(file)
+rescue REXML::ParseException => e
+  puts "XML файл с ошибкой"
+  abort e.message
+end
 file.close
 
 expenses = doc.elements.find("expenses").first
