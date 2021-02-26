@@ -5,11 +5,6 @@ Small terminal application for recording and showing spend amount of money. It p
 ### Add new spending
 ruby expenses_writer.rb
 
-### See spendings
-ruby expenses_reader.rb
-
-Or just open `my_expenses.xml` in which all the data is saved (it is created automatically during the first run in root directory of the application).
-
 ```
 На что потратили деньги?
 Игра
@@ -21,6 +16,9 @@ Or just open `my_expenses.xml` in which all the data is saved (it is created aut
 Игры
 Информация успешно сохранена
 ```
+
+### See spendings
+ruby expenses_reader.rb
 
 ```
 ------[ June 2015, всего потрачено: 3500 р. ]--------
@@ -35,3 +33,5 @@ Or just open `my_expenses.xml` in which all the data is saved (it is created aut
 ------[ February 2021, всего потрачено: 2500 р. ]--------
 	27 число: 2500 р.
 ```
+
+Or just open `my_expenses.xml` in which all the data is saved (it is created automatically during the first run in root directory of the application).
