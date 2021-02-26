@@ -13,6 +13,9 @@
      Софтбокс + штатив 
   </expense>
   <expense date='2020-10-27' category='Образование' amount='5500'>
-    Курс по Руби
+     Курс по Руби 
+  </expense>
+  <expense date='2021.02.27' category='Игры' amount='2500'>
+    Игра
   </expense>
 </expenses>

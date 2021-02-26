@@ -46,7 +46,7 @@ file.close
 expenses = doc.elements.find("expenses").first
 
 expense = expenses.add_element "expense", {
-  "date" => expense_date.to_s,
+  "date" => expense_date.strftime('%Y.%m.%d'),    # или .to_s
   "category" => expense_category,
   "amount" => expense_amount
 }
