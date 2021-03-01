@@ -1,7 +1,7 @@
 # Expenses (Учет трат)
 Small terminal application for recording and showing spend amount of money. It provides storing of the values: Name of spending, Category, Amount, Date. It stores data in XML format. Data is presented as monthly spendings by days.
 
-# Run
+## Run
 ### Add new spending
 ruby expenses_writer.rb
 
