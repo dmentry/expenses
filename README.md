@@ -3,7 +3,10 @@ Small terminal application for recording and showing spend amount of money. It p
 
 ## Run
 ### Add new spending
+
+```
 ruby expenses_writer.rb
+```
 
 ```
 На что потратили деньги?
@@ -18,7 +21,10 @@ ruby expenses_writer.rb
 ```
 
 ### See spendings
+
+```
 ruby expenses_reader.rb
+```
 
 ```
 ------[ June 2015, всего потрачено: 3500 р. ]--------
